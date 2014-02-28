@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 # -*- encoding: utf-8; mode: ruby -*-
 require File.expand_path('../lib/berkshelf/version', __FILE__)
 
@@ -42,7 +44,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'solve',             '>= 0.5.0'
   s.add_dependency 'thor',              '~> 0.18.0'
   s.add_dependency 'rbzip2',            '~> 0.2.0'
-  s.add_dependency 'faraday',           '~> 0.8.0' # lock tranisitive dependency of Ridley
 
   s.add_development_dependency 'aruba',         '~> 0.5'
   s.add_development_dependency 'cane',          '~> 2.5'
